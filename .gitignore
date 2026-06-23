@@ -46,3 +46,12 @@ $RECYCLE.BIN/
 **/__pycache__/
 **/.venv/
 **/venv/
+
+.husky/
+.vscode/
+config/
+scripts/
+manifest/
+eslint.config.js
+jest.config.js
+package.json
