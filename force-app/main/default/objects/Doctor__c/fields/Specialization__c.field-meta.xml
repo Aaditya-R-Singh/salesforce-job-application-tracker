@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Specialization__c</fullName>
+    <label>Specialization</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cardiologist</fullName>
+                <default>false</default>
+                <label>Cardiologist</label>
+            </value>
+            <value>
+                <fullName>Physio</fullName>
+                <default>false</default>
+                <label>Physio</label>
+            </value>
+            <value>
+                <fullName>Neuro</fullName>
+                <default>false</default>
+                <label>Neuro</label>
+            </value>
+            <value>
+                <fullName>Skin &amp; Hair</fullName>
+                <default>false</default>
+                <label>Skin &amp; Hair</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

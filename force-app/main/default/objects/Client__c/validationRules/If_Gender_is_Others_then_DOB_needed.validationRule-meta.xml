@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_Gender_is_Others_then_DOB_needed</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL( Gender__c , &apos;Others&apos;)  &amp;&amp;  ISBLANK(DOB__c)</errorConditionFormula>
+    <errorDisplayField>DOB__c</errorDisplayField>
+    <errorMessage>For Others Gender DOB is mandatory.</errorMessage>
+</ValidationRule>

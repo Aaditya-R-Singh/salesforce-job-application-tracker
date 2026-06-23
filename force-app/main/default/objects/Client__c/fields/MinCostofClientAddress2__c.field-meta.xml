@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MinCostofClientAddress2__c</fullName>
+    <label>MinCostofClientAddress2</label>
+    <summarizedField>Client_Address__c.CostofClientAddress__c</summarizedField>
+    <summaryForeignKey>Client_Address__c.Client__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
